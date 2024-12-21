@@ -1,0 +1,15 @@
+﻿  源.cpp
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.42.34433\include\ranges(11): warning STL4038: The contents of <ranges> are available only with C++20 or later.
+D:\蓝桥杯算法竞赛\数据结构与算法\basic-algorithm\双指针\力扣实现三数之和\力扣实现三数之和\源.cpp(8,20): error C2061: 语法错误: 标识符“vector”
+D:\蓝桥杯算法竞赛\数据结构与算法\basic-algorithm\双指针\力扣实现三数之和\力扣实现三数之和\源.cpp(9,14): error C3083: “ranges”:“::”左侧的符号必须是一种类型
+D:\蓝桥杯算法竞赛\数据结构与算法\basic-algorithm\双指针\力扣实现三数之和\力扣实现三数之和\源.cpp(9,27): error C2065: “nums”: 未声明的标识符
+D:\蓝桥杯算法竞赛\数据结构与算法\basic-algorithm\双指针\力扣实现三数之和\力扣实现三数之和\源.cpp(10,24): error C2065: “nums”: 未声明的标识符
+D:\蓝桥杯算法竞赛\数据结构与算法\basic-algorithm\双指针\力扣实现三数之和\力扣实现三数之和\源.cpp(13,17): error C2065: “nums”: 未声明的标识符
+D:\蓝桥杯算法竞赛\数据结构与算法\basic-algorithm\双指针\力扣实现三数之和\力扣实现三数之和\源.cpp(13,27): error C2065: “nums”: 未声明的标识符
+D:\蓝桥杯算法竞赛\数据结构与算法\basic-algorithm\双指针\力扣实现三数之和\力扣实现三数之和\源.cpp(13,37): error C2065: “target”: 未声明的标识符
+D:\蓝桥杯算法竞赛\数据结构与算法\basic-algorithm\双指针\力扣实现三数之和\力扣实现三数之和\源.cpp(29,27): error C2660: “Solution::countPairs”: 函数不接受 2 个参数
+      D:\蓝桥杯算法竞赛\数据结构与算法\basic-algorithm\双指针\力扣实现三数之和\力扣实现三数之和\源.cpp(8,9):
+      参见“Solution::countPairs”的声明
+      D:\蓝桥杯算法竞赛\数据结构与算法\basic-algorithm\双指针\力扣实现三数之和\力扣实现三数之和\源.cpp(29,27):
+      尝试匹配参数列表“(std::vector<int,std::allocator<int>>, int)”时
+  
