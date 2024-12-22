@@ -1,0 +1,4 @@
+﻿  test.cpp
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.42.34433\include\ranges(11): warning STL4038: The contents of <ranges> are available only with C++20 or later.
+D:\蓝桥杯算法竞赛\数据结构与算法\basic-algorithm\双指针\力扣有效三角形个数\力扣有效三角形个数\test.cpp(34,15): warning C4267: “初始化”: 从“size_t”转换到“int”，可能丢失数据
+  力扣有效三角形个数.vcxproj -> D:\蓝桥杯算法竞赛\数据结构与算法\basic-algorithm\双指针\力扣有效三角形个数\x64\Debug\力扣有效三角形个数.exe
