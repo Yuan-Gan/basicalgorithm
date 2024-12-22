@@ -47,6 +47,8 @@ public:
         return ret;
     }
 };
+
+
 int main()
 {
     Solution solution;
