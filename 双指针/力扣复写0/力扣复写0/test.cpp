@@ -13,46 +13,50 @@ using namespace std;
 //            while (arr.size() > originalSize) arr.pop_back();
 //        }
 //    }
-//};
 class Solution {
 public:
     void duplicateZeros(vector<int>& arr) {
-        // 找到下标
-        int dest = -1, cur = 0, n = arr.size();
-        while (cur < n) {
-            if (arr[cur]) {
+        int n = arr.size();
+        //先找到下标
+        int cur = 0, dest = -1;
+        while (dest < n - 1)
+        {
+            if (arr[cur])
+            {
                 dest++;
+                if (dest < n - 1)
+                    cur++;
             }
-            else {
+            else
+            {
                 dest += 2;
+                if (dest < n - 1)
+                    cur++;
             }
-            if (dest >= n - 1) break;
-            cur++;
         }
-
-        // 处理边界情况
-        if (dest == n) {
+        //处理特殊情况
+        if (dest == n)
+        {
             arr[n - 1] = 0;
-            cur--;
             dest -= 2;
+            cur--;
         }
-
-        // 处理元素复制，实现0元素重复功能
-        while (cur >= 0) {
-            if (arr[cur]) {
-                arr[dest--] = arr[cur--];
+        //进行复写操作
+        while (dest >= 0)
+        {
+            if (arr[cur] == 0)
+            {
+                arr[dest--] = arr[cur];
+                if (dest >= 0)
+                    arr[dest--] = arr[cur--];
             }
-            else {
-                arr[dest--] = 0;
-                arr[dest--] = 0;
-                cur--;
-            }
+            else  arr[dest--] = arr[cur--];
         }
     }
 };
 
 int main() {
-    vector<int> arr = { 1, 0, 2, 3, 0, 4 };
+    vector<int> arr = { 8,4,5,0,0,0,0,7 };
     Solution solution;
     solution.duplicateZeros(arr);
     for (int num : arr) {

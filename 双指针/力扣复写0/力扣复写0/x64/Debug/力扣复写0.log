@@ -1,3 +1,3 @@
 ﻿  test.cpp
-D:\蓝桥杯算法竞赛\数据结构与算法\basic-algorithm\双指针\力扣复写0\力扣复写0\test.cpp(21,35): warning C4267: “初始化”: 从“size_t”转换到“int”，可能丢失数据
+D:\蓝桥杯算法竞赛\数据结构与算法\basic-algorithm\双指针\力扣复写0\力扣复写0\test.cpp(19,15): warning C4267: “初始化”: 从“size_t”转换到“int”，可能丢失数据
   力扣复写0.vcxproj -> D:\蓝桥杯算法竞赛\数据结构与算法\basic-algorithm\双指针\力扣复写0\x64\Debug\力扣复写0.exe

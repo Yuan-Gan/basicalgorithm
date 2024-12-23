@@ -1,16 +1,21 @@
 #include <iostream>
 #include <vector>
 using namespace std;
-
 class Solution {
 public:
     void moveZeroes(vector<int>& nums) {
-        // 遍历数组，cur用于标记下一个非零元素应该放置的位置
-        for (int cur = -1, i = 0; i < nums.size(); i++) {
-            if (nums[i]) {
-                // 先将cur自增，指向正确的放置位置，然后交换元素
-                swap(nums[++cur], nums[i]);
-            }
+        int n = nums.size();
+        vector<int>tmp(n);
+        for (auto e : nums)
+        {
+            int i = 0;
+            if (e)//当不为0时
+                tmp[i++] = e;
+            //else 为0时
+        }
+        for (int i = 0; i < n; i++)
+        {
+            nums[i] = tmp[i];
         }
     }
 };
