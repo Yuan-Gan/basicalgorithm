@@ -1,3 +1,4 @@
 ﻿  test.cpp
 D:\蓝桥杯算法竞赛\数据结构与算法\basic-algorithm\双指针\力扣四数之和\力扣四数之和\test.cpp(12,15): warning C4267: “初始化”: 从“size_t”转换到“int”，可能丢失数据
+D:\蓝桥杯算法竞赛\数据结构与算法\basic-algorithm\双指针\力扣四数之和\力扣四数之和\test.cpp(29,27): warning C4244: “初始化”: 从“__int64”转换到“int”，可能丢失数据
   力扣四数之和.vcxproj -> D:\蓝桥杯算法竞赛\数据结构与算法\basic-algorithm\双指针\力扣四数之和\x64\Debug\力扣四数之和.exe

@@ -21,7 +21,9 @@ public:
             //确定一个j
             for (int j = i + 1; j < n - 2; j++) {
                 if (j > i + 1 && nums[j] == nums[j - 1]) continue;
-                long long int y = nums[j];
+                long long int y = nums[j]; 
+                if (x + y + nums[j + 1] + nums[j + 2] > target) break;
+                if (x + y + nums[n - 1] + nums[n - 2] < target) continue;
                 int left = j + 1, right = n - 1;
                 while (left < right) {
                     int s = x + y + nums[left] + nums[right];
